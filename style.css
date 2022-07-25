@@ -80,3 +80,33 @@ header .menu{
     line-height: 50px;
     margin-top: 10px;
 }
+
+#quem-somos{
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color: rgb(146, 4, 146);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color:rgb(146, 4, 146);
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+}
+
+#quem-somos img{
+    min-width: 450px;
+    margin: auto;
+}
