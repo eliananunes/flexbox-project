@@ -228,3 +228,12 @@ header .menu{
     background-color:rgb(146, 4, 146);
     margin-right: 5px;
 }
+
+footer{
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
